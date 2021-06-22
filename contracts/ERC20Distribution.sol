@@ -26,7 +26,65 @@ contract ERC20Distribution is Pausable, Ownable {
         uint256 amountSent;
     }
 
-    constructor() public{}
+    constructor() public{
+        
+        // IDO
+        setInitialDistribution(0x5042Ce01BD178C97f287C01C7b21edBf27b9b1B7, 640000000, 0 /* No Lock */);
+
+        /* Team */
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333333, 6*month);
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333333, 7*month);
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333333, 8*month);
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333333, 9*month);
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333333, 10*month);
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333333, 11*month);
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333333, 12*month);
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333333, 13*month);
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333333, 14*month);
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333333, 15*month);
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333333, 16*month);
+        setInitialDistribution(0x8654D5b4e31B967de221AA1B64e87578f657BD38, 133333337, 17*month);
+        
+
+        /* Private Sale */
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 352000000, 0 /* No Lock */);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 3*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 4*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 5*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 6*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 7*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 8*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 9*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 10*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 11*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 12*month);
+
+        /* New Rights */
+        setInitialDistribution(0x381B0E5950D9380627aABA82A3F69adE382297F1, 560000000, 0 /* No Lock */);
+        setInitialDistribution(0x381B0E5950D9380627aABA82A3F69adE382297F1, 560000000, 3*month);
+        setInitialDistribution(0x381B0E5950D9380627aABA82A3F69adE382297F1, 560000000, 6*month);
+        setInitialDistribution(0x381B0E5950D9380627aABA82A3F69adE382297F1, 560000000, 9*month);
+        setInitialDistribution(0x381B0E5950D9380627aABA82A3F69adE382297F1, 1120000000, 12*month);
+        setInitialDistribution(0x381B0E5950D9380627aABA82A3F69adE382297F1, 1120000000, 18*month);
+        setInitialDistribution(0x381B0E5950D9380627aABA82A3F69adE382297F1, 1120000000, 24*month);
+
+        /* Treasury */
+        setInitialDistribution(0xabb786B855B5Bf9cdEc5f0537a0A084C8Fe8a18f, 320000000, 0 /* No Lock */);
+        setInitialDistribution(0xabb786B855B5Bf9cdEc5f0537a0A084C8Fe8a18f, 320000000, 6*month);
+        setInitialDistribution(0xabb786B855B5Bf9cdEc5f0537a0A084C8Fe8a18f, 320000000, 12*month);
+        setInitialDistribution(0xabb786B855B5Bf9cdEc5f0537a0A084C8Fe8a18f, 1120000000, 18*month);
+        setInitialDistribution(0xabb786B855B5Bf9cdEc5f0537a0A084C8Fe8a18f, 1120000000, 24*month);
+
+        /* Liquidity */
+        setInitialDistribution(0xaB29129F1f1279cD22Df713Cf011f01E3A881f16, 320000000, 0 /* No Lock */);
+        setInitialDistribution(0xaB29129F1f1279cD22Df713Cf011f01E3A881f16, 320000000, 3*month);
+        setInitialDistribution(0xaB29129F1f1279cD22Df713Cf011f01E3A881f16, 640000000, 6*month);
+        setInitialDistribution(0xaB29129F1f1279cD22Df713Cf011f01E3A881f16, 640000000, 9*month);
+        setInitialDistribution(0xaB29129F1f1279cD22Df713Cf011f01E3A881f16, 640000000, 12*month);
+        setInitialDistribution(0xaB29129F1f1279cD22Df713Cf011f01E3A881f16, 320000000, 18*month);
+        setInitialDistribution(0xaB29129F1f1279cD22Df713Cf011f01E3A881f16, 320000000, 24*month);
+
+    }
 
     function setTokenAddress(IERC20 _tokenAddress) external onlyOwner whenNotPaused  {
         erc20 = _tokenAddress;
