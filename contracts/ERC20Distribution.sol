@@ -48,16 +48,15 @@ contract ERC20Distribution is Pausable, Ownable {
 
         /* Private Sale */
         setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 352000000, 0 /* No Lock */);
-        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 3*month);
-        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 4*month);
-        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 5*month);
-        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 6*month);
-        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 7*month);
-        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 8*month);
-        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 9*month);
-        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 10*month);
-        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 11*month);
-        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 140800000, 12*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 156444444, 3*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 156444444, 4*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 156444444, 5*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 156444444, 6*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 156444444, 7*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 156444444, 8*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 156444444, 9*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 156444444, 10*month);
+        setInitialDistribution(0x15084c71Eb33cac0C9CAF2B77bE3E85AB8A5327F, 156444448, 11*month);
 
         /* New Rights */
         setInitialDistribution(0x381B0E5950D9380627aABA82A3F69adE382297F1, 560000000, 0 /* No Lock */);
